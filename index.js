@@ -1,8 +1,8 @@
 const state = {
   people: [],
-  number: 1,
+  name: "Nico",
 };
 
 function myFunction() {
-  console.log('Hello World');
+  console.log(`Hello World, my name is ${state.name}`);
 }
