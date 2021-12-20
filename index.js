@@ -1,8 +1,12 @@
 const state = {
   people: [],
-  number: 1,
+  date: new Date(),
 };
 
 function myFunction() {
   console.log('Hello World');
+}
+
+function edsFunction() {
+  console.log('Hello, Im Ed, heres todays date: ' + state.date);
 }
